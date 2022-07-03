@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMORI BS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="src/img/somenthing.png">
+
+    <!-- Omori font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <!-- <audio src="musica/omori_ost_131_welcome_again_-3976983027416107297.mp3" autoplay="autoplay" loop="loop"></audio> -->
+
+    <div class="cotenedor logo-header">
+        <a class="logo" href="index.html">
+            <img src="build/img/Titulo-Omori.jpg" alt="Titulo de omori">
+        </a>
+    </div>
+
+
+    <header class="header">    
+            <div class="contenedor contenido-header">
+                <h1>Welcome to black space</h1>
+
+                <nav class="navegacion-principal">
+                    <a class="navegacion-enlace" href="#Canciones">Canciones</a>
+                    <a class="navegacion-enlace" href="#Galeria">Galeria</a>
+                    <a class="navegacion-enlace" href="#Blackspace">Black space</a>
+                    <a class="navegacion-enlace" href="#Gifs">Videos</a>
+                </nav>
+            </div>
+    </header>
+
+    <main id="swup" class="transition-fade">
+
+    <div id="Canciones" class="canciones contenedor">
+        <div class="overlay">
+            <div class="contenedor titulo-canciones">
+                <h2>Canciones para escuchar en black space</h2>
+            </div>
+
+            <div class="contenedor botones-canciones">
+                <button class="button-1" type="button">August/Water</button>
+                <button class="button-2" type="button">White Pillars</button>
+                <button class="button-3" type="button">Calm</button>
+            </div>
+
+            <div class="pausar">
+                
+            </div>
+        </div>
+        
+
+            <!-- <img src="img/omori-start-screen.gif" alt="Omori pantalla de titulo"> -->
+
+    </div>
+
+    <section id="Galeria" class="galeria cotenedor">
+        <h3>Galeria</h3>
+
+        <ul class="galeria-imagenes">
+
+        </ul>
+
+    </section>
+        <section id="Blackspace" class="Black-space contenedor">
+            <h1>Bienvenido a black space</h1>
+            <p>Comienza el recorrido</p>
+            
+            <nav class="puertas">
+                <a class="puertaA1" href="puerta1.html">
+                    <picture class="puerta1">
+                        <source srcset="build/img/blackspace-puerta.avif" type="image/avif">
+                        <source srcset="build/img/blackspace-puerta.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/blackspace-puerta.jpg" alt="Puerta de blackspace">
+                    </picture>
+                </a>
+                <a class="puertaA2" href="puerta2.html">
+                    <picture class="puerta2">
+                        <source srcset="build/img/blackspace-puerta.avif" type="image/avif">
+                        <source srcset="build/img/blackspace-puerta.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/blackspace-puerta.jpg" alt="Puerta de blackspace">
+                    </picture>
+                </a>
+                <a class="puertaA3" href="puerta3.html">
+                    <picture class="puerta3">
+                        <source srcset="build/img/blackspace-puerta.avif" type="image/avif">
+                        <source srcset="build/img/blackspace-puerta.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/blackspace-puerta.jpg" alt="Puerta de blackspace">
+                    </picture>
+                </a>
+            </nav>
+            
+
+        </section>
+
+    <section id="Gifs" class="bloque-gifs">
+        <h1>Gifs</h1> 
+    <div class="gifs">
+
+        <div class="gif">   
+
+            <div class="overlay-gif">
+                <div class="contenido-gifs">
+                    <p class="parrafo1">Basil en blackspace</p>
+                </div>
+            </div>
+
+            <img src="gifs/Basil_scared.webp" alt="Basil asustado">
+
+        </div>
+
+        <div class="gif">   
+
+            <div class="overlay-gif">
+                <div class="contenido-gifs">
+                    <p class="parrafo2">Tus amigos sonrien detrás de ti...?</p>
+                </div>
+            </div>
+
+            <img src="gifs/Mirror.webp" alt="Espejo con amigos de omori">
+
+        </div>
+
+        <div class="gif">   
+
+            <div class="overlay-gif">
+                <div class="contenido-gifs">
+                    <p class="parrafo3">Finalmente juntos</p>
+                </div>
+            </div>
+
+            <img src="gifs/Final.webp" alt="Omori junto a Sunny">
+
+        </div>
+    </div>
+
+    </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>OMORI Blackspace. Todos los derechos reservados a la creadora de la obra: OMOCAT.</p>
+    </footer>
+
+    <script src="build/js/galeria.js"></script>
+
+    <script>
+
+    const swup = new Swup();
+
+    </script>
+
+
+</body>
+
+</html>
