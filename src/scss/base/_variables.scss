@@ -1,0 +1,21 @@
+//Tipografía
+$fuente_principal: 'Montserrat', sans-serif;
+$fuente_omori: 'Shadows Into Light', cursive;
+
+//Colores
+$Negro: #000000;
+$Negro-brilloso: #383838;
+$Negro-transparente: rgba(8, 1, 1, 0.20);
+$Azul: #205375;
+$Blanco-crema: #F2F2F2;
+$Blanco: #FFFFFF;
+$Azul-claro:rgba(69, 231, 231, 0.767);
+$Rojo-transparente: rgba(255, 0, 85, 0.468);
+$Rojo: rgb(54, 6, 30); //rgb(255, 0, 85);
+
+//Media Queries
+
+$telefono: 468px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXL: 1200px;
